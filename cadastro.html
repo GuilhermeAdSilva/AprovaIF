@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <title>IF Técnico - Cadastro</title>
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <header>
+    <div class="logo">IF Técnico</div>
     <nav>
       <ul>
+        <li><a href="index.html">Início</a></li>
         <li class="active">Cadastro</li>
         <li><a href="login.html">Login</a></li>
       </ul>
@@ -17,28 +20,33 @@
 
   <main>
     <section class="form-container">
-      <h2>Cadastro</h2>
+      <h2>Crie sua conta</h2>
+      <p>É rápido e fácil começar a estudar com a gente.</p>
       <form action="#" method="POST">
         <label for="nome">Nome completo:</label>
-        <input type="text" id="nome" name="nome" required>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
 
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
 
         <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" required>
+        <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
 
         <label for="confirmar">Confirmar senha:</label>
-        <input type="password" id="confirmar" name="confirmar" required>
+        <input type="password" id="confirmar" name="confirmar" placeholder="Repita a senha" required>
 
         <button type="submit">Cadastrar</button>
       </form>
-      <p>Já tem uma conta? <a href="login.html">Faça login</a>.</p>
+      <p class="cadastro-link">Já tem uma conta? <a href="login.html">Faça login</a>.</p>
     </section>
   </main>
 
   <footer>
-    <p>Contato <link IF Sudeste MG <href="https://www.ifsudestemg.edu.br/"></p>
+    <p><a href="https://www.ifsudestemg.edu.br/" target="_blank">Acesse o IF Sudeste MG</a></p>
   </footer>
+
+  <script src="scripts.js"></script>
+  
 </body>
 </html>
+
