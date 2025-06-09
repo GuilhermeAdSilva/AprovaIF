@@ -7,8 +7,10 @@
 </head>
 <body>
   <header>
+    <div class="logo">IF Técnico</div>
     <nav>
       <ul>
+        <li><a href="index.html">Início</a></li>
         <li class="active">Login</li>
         <li><a href="cadastro.html">Cadastro</a></li>
       </ul>
@@ -17,22 +19,26 @@
 
   <main>
     <section class="form-container">
-      <h2>Login</h2>
+      <h2>Bem-vindo de volta!</h2>
+      <p>Faça login para continuar estudando.</p>
       <form action="#" method="POST">
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
 
         <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" required>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
 
         <button type="submit">Entrar</button>
       </form>
-      <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a>.</p>
+      <p class="cadastro-link">Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a>.</p>
     </section>
   </main>
 
   <footer>
-    <p> Contato | Link do IF</p>
+    <p><a href="https://www.ifsudestemg.edu.br/" target="_blank">Acesse o IF Sudeste MG</a></p>
   </footer>
+
+  <script src="scripts.js"></script>
+  
 </body>
 </html>
