@@ -22,9 +22,31 @@
     <section class="form-container">
       <h2>Crie sua conta</h2>
       <p>É rápido e fácil começar a estudar com a gente.</p>
+      
       <form action="#" method="POST">
         <label for="nome">Nome completo:</label>
         <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required>
+
+        <label for="campus_id">Campus:</label>
+        <input list="campus" id="campus_id" name="campus_id" required>
+        <datalist id="campus">
+          <option value="Juiz de Fora"></option>
+          <option value="Barbacena"></option>
+          <option value="Manhuaçu"></option>
+          <option value="Muriaé"></option>
+          <option value="Rio Pomba"></option>
+          <option value="São João Del-Rei"></option>
+          <option value="Bom Sucesso"></option>
+          <option value="Cataguases"></option>
+          <option value="Ubá"></option>
+        </datalist>
+
 
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" placeholder="seu@email.com" required>
@@ -49,4 +71,3 @@
   
 </body>
 </html>
-
