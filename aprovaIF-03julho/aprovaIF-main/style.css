@@ -1,0 +1,164 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #19882c;
+    padding: 10px 40px;
+    color: white;
+  }
+  
+  .logo {
+    background-color: #19882c;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 3px;
+    transition: background 0.3s;
+  }
+
+   nav li.active, nav a {
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background-color: #19882c;
+  }
+  
+  main {
+    padding: 30px 20px;
+  }
+  
+  .carrossel {
+    background-color: #c4d9c7;
+    height: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #0b3d26;
+  }
+  
+  .conteudo {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sobre, .dicas {
+    flex: 1;
+    background-color: #dceee1;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #19882c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+   .form-container button:hover {
+    background-color: #228B22;
+  }
+
+  .form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #f0fdf4;
+  border: 2px solid #19882c;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  color: #19882c;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  color: #333;
+  font-size: 14px;
+}
+
+.form-container label {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #0b3d26;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-container button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #19882c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #157a25;
+}
+
+.cadastro-link {
+  margin-top: 15px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
